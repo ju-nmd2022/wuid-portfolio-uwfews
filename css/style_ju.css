@@ -1,0 +1,16 @@
+main p {
+  font-size: 20px;
+  color: rgb(0, 54, 112);
+  padding: 30px;
+}
+#ju-pic img {
+  width: 100%;
+}
+#doner-pic img {
+  width: 100%;
+}
+footer p {
+  font-size: 16px;
+  color: rgb(0, 54, 112);
+  padding: 30px;
+}
