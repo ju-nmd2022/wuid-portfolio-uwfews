@@ -1,0 +1,26 @@
+p {
+  margin: 25px 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  color: rgb(0, 54, 112);
+}
+img {
+  width: 100%;
+}
+.katana {
+  font-weight: 700;
+  color: rgb(72, 131, 248);
+}
+.bo {
+  font-weight: 700;
+  color: rgb(144, 65, 165);
+}
+.nunchaku {
+  font-weight: 700;
+  color: rgb(244, 162, 30);
+}
+.twinsai {
+  font-weight: 700;
+  color: rgb(255, 32, 32);
+}

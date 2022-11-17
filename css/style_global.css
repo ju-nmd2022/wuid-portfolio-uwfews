@@ -10,6 +10,8 @@ nav {
   height: 70px;
 }
 h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-size: 36px;
   color: rgb(229, 229, 229);
   display: inline-block;

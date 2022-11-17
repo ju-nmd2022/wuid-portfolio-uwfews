@@ -1,4 +1,6 @@
-#intro p {
+main p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-size: 20px;
   color: rgb(0, 54, 112);
   padding: 30px;
@@ -7,7 +9,16 @@
   width: 100%;
 }
 footer p {
-  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
   color: rgb(0, 54, 112);
   padding: 30px;
+}
+.grid-footer {
+  background-color: #afc9d4;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: center;
+  grid-gap: 30px;
 }
