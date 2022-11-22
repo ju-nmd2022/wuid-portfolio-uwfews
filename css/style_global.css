@@ -27,7 +27,7 @@ footer p {
 }
 
 .grid-footer {
-  background-color: #eef9fe;
+  background-color: rgb(158, 182, 199);
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-self: center;
