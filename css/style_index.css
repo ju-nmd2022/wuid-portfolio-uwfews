@@ -5,20 +5,54 @@ main p {
   color: rgb(0, 54, 112);
   padding: 30px;
 }
-#yousef-pic img {
-  width: 100%;
+
+#hero {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../media/yousef.JPG");
+  background-repeat: no-repeat;
+  background-position: 70%;
+  background-size: cover;
+  background-attachment: fixed;
 }
-footer p {
+
+.hero-content {
+  position: absolute;
+  top: 35%;
+  left: 20%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 18px;
-  color: rgb(0, 54, 112);
-  padding: 30px;
+  font-size: 36px;
+  color: rgb(255, 255, 255);
 }
-.grid-footer {
-  background-color: #afc9d4;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-self: center;
-  grid-gap: 30px;
+
+.hero-content h1 {
+  font-weight: 700;
+}
+.first-animation {
+  animation-name: colorchange;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes colorchange {
+  0% {
+    color: rgb(255, 255, 255);
+    transform: scale(2);
+    text-shadow: 2px 2px 15px rgb(0, 0, 0);
+  }
+
+  50% {
+    color: rgb(0, 0, 0);
+    transform: scale(1);
+    text-shadow: 2px 2px 15px rgb(255, 255, 255);
+  }
+  100% {
+    color: rgb(255, 255, 255);
+    transform: scale(2);
+    text-shadow: 2px 2px 15px rgb(0, 0, 0);
+  }
 }

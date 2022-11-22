@@ -5,16 +5,11 @@ main p {
   color: rgb(0, 54, 112);
   padding: 30px;
 }
+
 #ju-pic img {
   width: 100%;
 }
+
 #doner-pic img {
   width: 100%;
-}
-footer p {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 16px;
-  color: rgb(0, 54, 112);
-  padding: 30px;
 }
